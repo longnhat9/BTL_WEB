@@ -140,7 +140,6 @@ html {
 
 .header__container__menu-item-column-content span:hover {
     color: #bf9a61;
-    /* display: inline-block; */
 }
 
 .header__container__menu-item-column-content a {
@@ -156,6 +155,10 @@ html {
 .header__container__menu-item-column-see-all span {
     font-size: 13px;
     color: #2489f4;
+}
+
+.header__container__menu-item-column h5 {
+    display: inline-block;
 }
 
 .header__container__menu-item-column-icon-heart {
@@ -189,7 +192,7 @@ html {
 .header__container__search-img {
     position: absolute;
     top: 5px;
-    right: 4px;
+    right: 5px;
     background-color: #C92127;
     padding: 7px 28px;
     border-radius: 6px;

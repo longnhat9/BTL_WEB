@@ -746,11 +746,15 @@ html {
 }
 
 .body-container__list-product__header {
-    margin: 22px 14px 0;
+    margin: 22px 20px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #cdcfd0;
-    padding: 18px 10px;
+    padding: 18px 0px;
+}
+
+.body-container__list-product__header img {
+    margin-right: 8px;
 }
 
 .body-container__list-product__content {
@@ -769,10 +773,6 @@ html {
 
 .body-container__list-product__content-item a {
     text-decoration: none;
-}
-
-.body-container__list-product__content-item-img {
-    /* width: 100px; */
 }
 
 .body-container__list-product__content-item-content {

@@ -757,6 +757,11 @@ html {
     height: 60px;
 }
 
+.status-sold-product {
+    background-color: red;
+    background-size: 12px;
+}
+
 .body-container__flash-sale__content__view-more a {
     text-decoration: none;
     color: var(--while-color);

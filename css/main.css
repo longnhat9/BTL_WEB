@@ -1175,7 +1175,7 @@ html {
 }
 
 .danh-muc-san-phan-detail__list-product-item__add-to-cart .add-icon-shopping-yellow {
-    background-image: url("./img/SGK-STK/shopping-bag-img.png");
+    background-image: url("../img/SGK-STK/shopping-bag-img.png");
     background-repeat: no-repeat;
     background-size: 15px;
     width: 18px;
@@ -1196,7 +1196,7 @@ html {
 }
 
 .danh-muc-san-phan-detail__list-product-item__add-to-cart:hover .add-icon-shopping-white {
-    background-image: url("./img/SGK-STK/shopping-bag-white.png");
+    background-image: url("../img/SGK-STK/shopping-bag-white.png");
     background-repeat: no-repeat;
     background-size: 15px;
     width: 18px;

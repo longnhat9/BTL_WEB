@@ -326,14 +326,9 @@ html {
 }
 
 .header__container__cart {
-    position: relative;
     margin-top: 17px;
     margin-left: 20px;
     text-align: center;
-}
-
-.header__container__cart:hover .cart__sub {
-    display: block;
 }
 
 .header__container__cart a {
@@ -347,47 +342,6 @@ html {
 .header__container__cart-content {
     font-size: 12px;
     color: #7a7e7f;
-}
-
-.header__container__cart-number-product {
-    position: absolute;
-    top: -10px;
-    right: 5px;
-    color: var(--while-color);
-    background-color: #C92127;
-    display: inline-block;
-    padding: 4px 6px;
-    border-radius: 50%;
-    font-size: 10px;
-}
-
-.cart__sub {
-    position: absolute;
-    top: 110%;
-    left: -200%;
-    background-color: var(--while-color);
-    width: 270px;
-    height: 220px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    border-radius: 6px;
-    display: none;
-}
-
-.cart__sub-header {
-    display: flex;
-    padding: 16px;
-    border-bottom: 1px solid #F2F4F5;
-}
-
-.cart__sub-header-img {
-    width: 15px;
-    margin-right: 8px;
-}
-
-.cart__sub-content-img {
-    height: 80px;
-    width: auto;
-    margin: 16px;
 }
 
 .header__container__user {
@@ -525,54 +479,96 @@ html {
     margin: auto;
 }
 
-.cart {
-    margin-bottom: 500px;
+.breadcrumb {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
 }
 
-.cart__header {
-    margin-bottom: 18px;
+.breadcrumb i {
+    font-size: 8px;
+    padding: 0 5px;
+    color: #999;
 }
 
-.cart__header p {
-    display: inline-block;
-    font-size: 20px;
-    margin-top: 18px;
-}
-
-.cart__container-order-products {
-    background-color: var(--while-color);
-    text-align: center;
-    padding: 40px 0;
-    border-radius: 9px;
-}
-
-.cart__container-order-products__image img {
-    width: auto;
-    height: 162px;
-}
-
-.cart__container-order-products__description {
-    font-size: 14px;
-    margin: 20px 0;
-    color: #333;
-}
-
-.cart__container-order-products__btn-buy {
-    background-color: #C92127;
-    padding: 10px 0;
-    min-width: 220px;
-    display: inline-block;
-    border-radius: 6px;
-}
-
-.cart__container-order-products__btn-buy a {
+.breadcrumb__vitri a {
     text-decoration: none;
 }
 
-.cart__container-order-products__btn-buy p {
-    color: var(--while-color);
-    font-size: 15px;
-    font-weight: 500;
+.breadcrumb__vitri p {
+    display: inline-block;
+    font-size: 12px;
+    color: #262626;
+}
+
+.product {
+    padding: 20px;
+    background-color: var(--while-color);
+    display: flex;
+}
+
+.product__image {
+    width: 480px;
+    height: 300px;
+    background-color: #2489f4;
+}
+
+.product__content {
+    padding-left: 36px;
+}
+
+.product__content__heading p {
+    font-size: 22px;
+    color: #333;
+    overflow-wrap: break-word;
+    line-height: 33px;
+    padding-bottom: 16px;
+}
+
+.product__content__infor-book {
+
+}
+
+.product__content__infor-book-column {
+
+}
+
+.product__content__infor-book__nha-cung-cap {
+
+}
+
+.product__content__infor-book__nha-cung-cap span {
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+.product__content__infor-book__nha-cung-cap a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2489F4;
+}
+
+.product__content__infor-book__nha-xuat-ban {
+
+}
+
+.product__content__infor-book-column {
+
+}
+
+.product__content__infor-book__author {
+
+}
+
+.product__content__infor-book__hinh-thuc-bia {
+
+}
+
+
+.product__content__infor-book {
+    display: flex;
+    justify-content: space-between;
 }
 
 .register-notify {

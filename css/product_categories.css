@@ -34,10 +34,6 @@ html {
     --black-color: #000;
 }
 
-.clear {
-    clear: both;
-}
-
 .header__img {
     background-color: #5b53f4;
     text-align: center;
@@ -306,28 +302,27 @@ html {
 
 .header__container__notify-hover-container-user-btn-login{
     margin-top: 25px;
-    padding: 12px 20px;
+    padding: 7px 20px;
     width: 230px;
     color: var(--while-color);
     font-weight: 700;
     background-color: #C92127;
     border-radius: 9px;
+    border-color: #C92127;
     cursor: pointer;
-    outline: none;
-    border: none;
 }
 
 .header__container__notify-hover-container-user-btn-register {
     margin-top: 10px;
-    padding: 12px 20px;
+    padding: 7px 20px;
     width: 230px;
     color: var(--while-color);
-    font-weight: 750;
+    font-weight: 700;
     color: #C92127;
     border-radius: 9px;
+    border-width: 2px;
+    border-color: #C92127;
     cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #C92127;
 }
 
 .header__container__cart {
@@ -403,7 +398,8 @@ html {
 
 .header__container__user__sub-user-register {
     background-color: var(--while-color);
-    border: 2px solid #C92127;
+    border-width: 2px;
+    border-color: #C92127;
     color: #C92127;
     outline: none;
     font-weight: bold;
@@ -476,162 +472,11 @@ html {
 
 .body {
     background-color: #f0f0f0;
-    padding-top: 5px;
 }
 
 .body-container {
     width: 1230px;
     margin: auto;
-}
-
-.form-login {
-    background-color: var(--while-color);
-    display: flex;
-    justify-content: center;
-    padding: 50px 8px;
-}
-
-.form-login__heading-login {
-    display: inline-block;
-    cursor: pointer;
-}
-
-.form-login__heading-login span {
-    color: #C92127;
-    padding: 5px 50px;
-    border-bottom: 2px solid #C92127;
-    font-size: 14px;
-}
-
-.form-login__heading {
-    display: inline-block;
-    cursor: pointer;
-    margin-left: 5px;
-}
-
-.form-login__heading:active , .form-login__heading-login {
-    /* display: none; */
-}
-
-.form-login__heading span {
-    padding: 10px 50px;
-    color: #646464;
-    font-size: 14px;
-}
-
-.form-login__username {
-    padding-top: 30px;
-}
-
-.form-login__username p {
-    font-size: 14px;
-    color: #555555;
-    padding: 12px 0;
-}
-
-.form-login__username input {
-    padding: 10px 14px;
-    width: 100%;
-    border: 1px solid #ced4da;
-    background-color: var(--while-color);
-    outline-color: #ced4da;
-    outline-width: 1px;
-    border-radius: 4px;
-}
-
-.form-login__username input::placeholder {
-    font-size: 15px;
-    opacity: 0.6;
-}
-
-.form-login__password {
-    padding-top: 10px;
-}
-
-.form-login__password p {
-    font-size: 14px;
-    color: #555555;
-    padding: 12px 0;
-}
-
-.form-login__password input {
-    padding: 10px 14px;
-    width: 100%;
-    border: 1px solid #ced4da;
-    background-color: var(--while-color);
-    outline-color: #ced4da;
-    outline-width: 1px;
-    border-radius: 4px;
-}
-
-.form-login__password input::placeholder {
-    font-size: 15px;
-    opacity: 0.6;
-}
-
-.form-login__forget-password {
-    padding: 16px 0;
-    display: flex;
-    justify-content: end;
-}
-
-.form-login__forget-password a {
-    text-decoration: none;
-}
-
-.form-login__forget-password span {
-    color: #C92127;
-    font-size: 13px;
-}
-
-.form-login__btn-login {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-}
-
-.form-login__btn-login button {
-    color: #636363;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 85px;
-    font-weight: 700;
-    font-size: 15px;
-    background-color: #e0e0e0;
-    cursor: pointer;
-}
-
-.form-login__btn-login-facebook {
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    margin-top: 16px;
-}
-
-.form-login__btn-login-facebook button {
-    padding: 10px 22px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.form-login__btn-login-facebook-icon {
-    color: var(--while-color);
-    font-size: 19px;
-    margin-right: 10px;
-}
-
-.form-login__btn-login-facebook button {
-    background-color: #2489F4;
-    border: none;
-}
-
-.form-login__btn-login-facebook span {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--while-color);
 }
 
 .register-notify {

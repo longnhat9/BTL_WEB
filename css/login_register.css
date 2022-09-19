@@ -509,10 +509,6 @@ html {
     margin-left: 5px;
 }
 
-.form-login__heading:active , .form-login__heading-login {
-    /* display: none; */
-}
-
 .form-login__heading span {
     padding: 10px 50px;
     color: #646464;

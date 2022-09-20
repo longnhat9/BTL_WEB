@@ -302,27 +302,28 @@ html {
 
 .header__container__notify-hover-container-user-btn-login{
     margin-top: 25px;
-    padding: 7px 20px;
+    padding: 12px 20px;
     width: 230px;
     color: var(--while-color);
     font-weight: 700;
     background-color: #C92127;
     border-radius: 9px;
-    border-color: #C92127;
     cursor: pointer;
+    outline: none;
+    border: none;
 }
 
 .header__container__notify-hover-container-user-btn-register {
     margin-top: 10px;
-    padding: 7px 20px;
+    padding: 12px 20px;
     width: 230px;
     color: var(--while-color);
-    font-weight: 700;
+    font-weight: 750;
     color: #C92127;
     border-radius: 9px;
-    border-width: 2px;
-    border-color: #C92127;
     cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #C92127;
 }
 
 .header__container__cart {
@@ -444,8 +445,7 @@ html {
 
 .header__container__user__sub-user-register {
     background-color: var(--while-color);
-    border-width: 2px;
-    border-color: #C92127;
+    border: 2px solid #C92127;
     color: #C92127;
     outline: none;
     font-weight: bold;

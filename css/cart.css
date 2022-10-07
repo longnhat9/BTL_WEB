@@ -353,6 +353,16 @@ html {
     text-align: center;
 }
 
+.cart__sub::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -18px;
+    right: 42%;
+    width: 60px;
+    height: 20px;
+}
+
 .header__container__cart:hover .cart__sub {
     display: block;
 }

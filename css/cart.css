@@ -82,6 +82,16 @@ html {
     cursor: default;
 }
 
+.header__container__menu-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 220px;
+    width: 100px;
+    height: 10px;
+}
+
 .header__container__menu-item-list {
     flex: 1;
     border-right-width: 2px;
@@ -268,6 +278,16 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.header__container__notify-hover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    width: 70px;
+    height: 30px;
+}
+
 .header__container__notify-item-one:hover .header__container__notify-hover {
     display: block;
 }
@@ -427,6 +447,16 @@ html {
     width: 255px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     cursor: default;
+}
+
+.header__container__user__sub-user::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    width: 60px;
+    height: 26px;
 }
 
 .header__container__user__sub-user-login {

@@ -84,6 +84,7 @@ html {
     right: 0;
     border-radius: 5px;
     cursor: default;
+    z-index: 5;
 }
 
 .header__container__menu-item::before {

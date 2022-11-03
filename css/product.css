@@ -1757,6 +1757,12 @@ html {
         display: block;
         width: 100%;
         padding: 6px;
+        background-color: #C92127;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
     }
 
     .body-container__nav {
@@ -1769,15 +1775,6 @@ html {
 
     .header-mobile-tablet__logo {
         text-align: center;
-    }
-
-    .header-mobile-tablet {
-        background-color: #C92127;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 10;
     }
 
     .header-mobile-tablet__body {

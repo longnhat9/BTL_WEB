@@ -1858,6 +1858,16 @@ html {
         display: block;
         width: 100%;
         padding: 6px;
+        background-color: #C92127;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+    }
+
+    .body {
+        margin-top: 98px;
     }
 
     .body-container__nav {
@@ -1880,11 +1890,6 @@ html {
         display: flex;
         align-items: center;
         padding: 10px 0 15px 10px;
-        /* position: fixed;
-        top: 100%;
-        left: 0;
-        right: 0; */
-        background-color: #C92127;
     }
 
     .header-mobile-tablet__menu {

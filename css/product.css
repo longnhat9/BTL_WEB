@@ -1773,17 +1773,21 @@ html {
 
     .header-mobile-tablet {
         background-color: #C92127;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
     }
 
     .header-mobile-tablet__body {
         display: flex;
         align-items: center;
         padding: 10px 0 15px 10px;
-        /* position: fixed;
-        top: 100%;
-        left: 0;
-        right: 0; */
-        background-color: #C92127;
+    }
+
+    .body {
+        margin-top: 98px;
     }
 
     .header-mobile-tablet__menu {

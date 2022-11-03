@@ -1593,18 +1593,6 @@ html {
     border-right: 1px solid #cecece;
 }
 
-.footer__intro::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0px;
-    right: -20px;
-    width: 20px;
-    height: 20px;
-    /* border: 19px solid #ccc; */
-    background-color: red;
-}
-
 .footer__intro__image img {
     width: 300px;
     margin: 16px 0;
@@ -1823,4 +1811,496 @@ html {
     color: #adadad;
     font-size: 13px;
     padding-left: 14px;
+}
+
+.header-mobile-tablet {
+    display: none;
+}
+
+.flash-sale-mobile-tablet-list-item {
+    display: none;
+}
+
+.trend-buy-mobile {
+    display: none;
+}
+
+.danh-muc-san-phan-detail-tablet {
+    display: none;
+}
+
+.trend-buy-tablet {
+    display: none;
+}
+
+.danh-muc-san-phan-detail-mobile {
+    display: none;
+}
+
+/* Mobile and Tablet */
+@media only screen and (max-width: 900px) {
+    body {
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .body-container__nav-flash-sale {
+        width: 20%;
+    }
+
+    .header-mobile-tablet {
+        display: block;
+        width: 100%;
+        padding: 6px;
+    }
+
+    .body-container__nav {
+        flex-wrap: wrap;
+    }
+
+    .header-mobile-tablet__logo-img {
+        width: 140px;
+    }
+
+    .header-mobile-tablet__logo {
+        text-align: center;
+    }
+
+    .header-mobile-tablet {
+        background-color: #C92127;
+    }
+
+    .header-mobile-tablet__body {
+        display: flex;
+        align-items: center;
+        padding: 10px 0 15px 10px;
+        /* position: fixed;
+        top: 100%;
+        left: 0;
+        right: 0; */
+        background-color: #C92127;
+    }
+
+    .header-mobile-tablet__menu {
+        margin-right: 14px;
+    }
+
+    .header-mobile-tablet__menu-icon {
+        font-size: 26px;
+        color: #fff;
+    }
+
+    .header-mobile-tablet__search {
+        flex-basis: 100%;
+    }
+
+    .header-mobile-tablet__input-search {
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        padding: 8px;
+        width: 100%;
+    }
+
+    .header-mobile-tablet__input-search::placeholder {
+        opacity: 0.5;
+    }
+
+    .header-mobile-tablet__cart {
+        margin: 0 10px;
+    }
+
+    .header-mobile-tablet__icon-cart {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .header-mobile-tablet__user {
+        margin-left: 4px;
+    }
+
+    .header-mobile-tablet__user-icon {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .body-container__slider-arrow ,
+    .body-container__slider__column {
+        display: none;
+    }
+
+    .body {
+        padding: 0 35px;
+    }
+
+    .body-container {
+        width: 100%;
+    }
+
+    .body-container__slider__one {
+        max-width: 100%;
+    }
+
+    .body-container__item {
+        width: 25%;
+    }
+
+    .body-container__item-img {
+        width: 100%;
+    }
+
+    .body-container__nav-flash-sale-img {
+        width: 50%;
+        border-radius: 5px;
+    }
+
+    .body-container__nav-content {
+        line-height: 22px;
+    }
+
+    .body-container__flash-sale__content-container-items {
+        display: none;
+    }
+
+    .flash-sale-mobile-tablet-list-item {
+        display: flex;
+        padding: 10px 0 20px 0;
+    }
+    
+    .body-container__flash-sale__content__item {
+        width: 33.3333%;
+    }
+
+    .body-container__flash-sale__content__item-coupon {
+        right: 20px;
+    }
+
+    .body-container__flash-sale__content__item__image img {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .body-container__list-product {
+        display: none;
+    }
+
+    .danh-muc-san-phan-detail__list-product-item {
+        width: 25%;
+        padding: 0 5px;
+    }
+
+    .danh-muc-san-phan-detail-tablet {
+        display: flex;
+        width: 100%;
+    }
+
+    .danh-muc-san-phan-detail__list-product-item-info__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .danh-muc-san-phan-detail__list-product-item {
+        height: 330px;
+        margin: 8px;
+    }
+
+    .danh-muc-san-phan-detail__see-more {
+        margin-top: 10px;
+    }
+
+    .thuong-hieu-item {
+        width: calc(100% / 9);
+    }
+
+    .thuong-hieu-item a {
+        display: block;
+    }
+
+    .thuong-hieu-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer__contact__content {
+        flex-direction: column;
+    }
+
+    .footer__contact__content__address ,
+    .footer__contact__content__email ,
+    .footer__contact__content__phone-number {
+        padding: 8px 0;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px){
+    .body {
+        padding: 0;
+    }
+
+    .body-container__items-image {
+        display: none;
+    }
+
+    .body-container__nav {
+        flex-wrap: wrap;
+    }
+
+    .body-container__nav-flash-sale {
+        width: 20%;
+        padding: 10px 0;
+    }
+
+    .body-container__nav-flash-sale-img {
+        width: 60%;
+        border-radius: 10px;
+        margin-bottom: 4px;
+    }
+    
+    .body-container__nav-content {
+        font-size: 12px;
+        color: #333;
+        line-height: 16px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .trend-buy-products__row__item-infor__img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .trend-buy-products__row__item-infor {
+        min-height: 0;
+    }
+
+    .trend-buy-products__row__item__sale-coupon {
+        right: -10px;
+    }
+
+    .trend-buy-products__row__item {
+        width: 25%;
+        margin-right: 8px;
+    }
+
+    .trend-buy__nav-title-one span {
+        font-size: 11px;
+    }
+
+    .trend-buy-products__row {
+        display: none;
+    }
+
+    .trend-buy-mobile {
+        display: block;
+    }
+
+    .trend-buy-products__row-mobile {
+        display: flex;
+    }
+    
+    .trend-buy__nav {
+        flex-wrap: wrap;
+    }
+
+    .danh-muc-san-phan-detail__list-product-item__add-to-cart span {
+        font-size: 12px;
+    }
+
+    .danh-muc-san-phan-detail__list-product {
+        display: none;
+    }
+
+    .danh-muc-san-phan-detail-mobile {
+        display: flex;
+    }
+
+    .danh-muc-san-phan-detail-tablet {
+        display: none;
+    }
+
+    .danh-muc-san-phan-detail__list-product-item {
+        width: 33.3333%;
+    }
+
+    .danh-muc-san-phan-detail__list-product-item {
+        height: 280px;
+    }
+
+    .danh-muc-san-phan-detail__nav {
+        flex-wrap: wrap;
+    }
+
+    .list-product__header-content {
+        flex-wrap: wrap;
+    }
+
+    .list-product__header-content span {
+        font-size: 12px;
+    }
+
+    .list-product__header-content {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .register-notify {
+        display: none;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+
+    .footer__support ,
+    .footer__my-account ,
+    .footer__service {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .list-product__container-item-chinh-img , 
+    .list-product__container-items-phu {
+        display: none;
+    }
+
+    .list-product__container-items-phu__item {
+        width: 50%;
+        padding: 6px;
+        margin-right: 10px;
+        flex-direction: column;
+    }
+
+    .list-product__see-more {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .trend-buy-products__row__item {
+        width: 20%;
+        padding-right: 10px;
+    }
+
+    .trend-buy__nav-title-one span {
+        font-size: 13px;
+    }
+
+    .trend-buy-products__row__item-infor__img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .trend-buy-products__row__item-infor__content {
+        font-size: 14px;
+    }
+
+    .danh-muc-san-phan-detail__list-product {
+        display: none;
+    }
+
+    .trend-buy-products__row__item-infor {
+        min-height: 0;
+    }
+
+    .danh-muc-san-phan-detail__list-product-item__add-to-cart span {
+        font-size: 14px;
+    }
+
+    .trend-buy-tablet {
+        display: block;
+    }
+
+    .trend-buy-products__row-tablet {
+        display: flex;
+    }
+    
+    .trend-buy__nav {
+        flex-wrap: wrap;
+    }
+
+    .danh-muc-san-phan-detail__list-product-item__add-to-cart span {
+        font-size: 12px;
+    }
+
+    .danh-muc-san-phan-detail__list-product {
+        display: none;
+    }
+
+    .danh-muc-san-phan-detail-mobile {
+        display: none;
+    }
+
+    .danh-muc-san-phan-detail-tablet {
+        display: flex;
+    }
+
+    .danh-muc-san-phan-detail__list-product-item {
+        min-height: 250px;
+    }
+
+    .list-product__container-item-chinh-img {
+        display: none;
+    }
+
+    .list-product__container-items-phu__item {
+        padding: 12px;
+    }
+
+    .list-product {
+        width: 100%;
+    }
+
+    .list-product__see-more {
+        margin: 0 auto;
+    }
+
+    .list-product__header-content span {
+        font-size: 14px;
+    }
+
+    .list-product__header-content {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .register-notify {
+        display: none;
+    }
+
+    .register-notify__decrip {
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+
+    .footer__intro {
+        display: block;
+        flex-basis: 100%;
+    }
+
+    .footer__support ,
+    .footer__my-account ,
+    .footer__service {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .footer__doi-tac {
+        width: 100%;
+    }
 }

@@ -515,11 +515,21 @@ html {
     margin: auto;
 }
 
+.account {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.lable-account {
+    display: flex;
+    justify-content: center;
+}
+
 .form-login {
     background-color: var(--while-color);
     display: flex;
     justify-content: center;
-    padding: 50px 8px;
+    padding: 0 8px;
 }
 
 .form-login__heading-login {
@@ -534,16 +544,20 @@ html {
     font-size: 14px;
 }
 
-.form-login__heading {
+.form-login__heading-register {
     display: inline-block;
     cursor: pointer;
     margin-left: 5px;
 }
 
-.form-login__heading span {
+.form-login__heading-register span {
     padding: 10px 50px;
     color: #646464;
     font-size: 14px;
+}
+
+.form-login__login-form {
+    width: 350px;
 }
 
 .form-login__username {
@@ -659,6 +673,160 @@ html {
     font-size: 14px;
     font-weight: 700;
     color: var(--while-color);
+}
+
+.form-register {
+    background-color: var(--while-color);
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.form-register__heading-login {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.form-register__heading-login span {
+    /* color: #C92127; */
+    padding: 5px 50px;
+    /* border-bottom: 2px solid #C92127; */
+    font-size: 14px;
+    transform: all 0.5s linear;
+    transform-origin: bottom;
+}
+
+.form-register__heading-login:hover span {
+    border-bottom: 2px sold #C92127;
+
+}
+
+.form-register__heading-register span {
+    color: #C92127;
+    padding: 5px 50px;
+    border-bottom: 2px solid #C92127;
+    font-size: 14px;
+}
+
+.form-register__heading-register {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.form-register__heading-register span {
+    color: #646464;
+    font-size: 14px;
+}
+
+.form-register__register-form {
+    width: 350px;
+}
+
+.form-register__username {
+    padding-top: 30px;
+}
+
+.form-register__username p {
+    font-size: 14px;
+    color: #555555;
+    padding: 12px 0;
+}
+
+.form-register__username input {
+    padding: 10px 14px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    background-color: var(--while-color);
+    outline-color: #ced4da;
+    outline-width: 1px;
+    border-radius: 4px;
+}
+
+.form-register__username input::placeholder {
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.form-register__password {
+    padding-top: 10px;
+}
+
+.form-register__password p {
+    font-size: 14px;
+    color: #555555;
+    padding: 12px 0;
+}
+
+.form-register__password input {
+    padding: 10px 14px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    background-color: var(--while-color);
+    outline-color: #ced4da;
+    outline-width: 1px;
+    border-radius: 4px;
+}
+
+.form-register__password input::placeholder {
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.form-register__btn-register {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.form-register__btn-register button {
+    color: #636363;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 85px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.form-register__btn-login-facebook {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.form-register__policy-content {
+    font-size: 12px;
+    margin: 40px 20px 0;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-register__policy-primary {
+    font-size: 12px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-register__policy-link {
+    padding: 0 8px;
+}
+
+.form-register__policy-link a:hover {
+    color: #C92127;
+}
+
+.form-register__policy-link a {
+    text-decoration: none;
+    color: #2489F4;
+    transition: all 0.3s linear;
 }
 
 .register-notify {

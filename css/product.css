@@ -1209,7 +1209,7 @@ html {
 }
 
 .product-rate__content-number {
-    margin-left: 35px;
+    padding-left: 35px;
 }
 
 .product-rate__content-number-heading {
@@ -1238,7 +1238,7 @@ html {
 }
 
 .product-rate__content-star-rate {
-    margin-left: 50px;
+    padding-left: 50px;
 }
 
 .product-rate__content-star-rate p {
@@ -1613,4 +1613,363 @@ html {
     color: #adadad;
     font-size: 13px;
     padding-left: 14px;
+}
+
+.header-mobile-tablet {
+    display: none;
+}
+
+.san-pham-lien-quan__row-mobile {
+    display: none;
+}
+
+.san-pham-lien-quan__row-tablet {
+    display: none;
+}
+
+.fahasa-gioi-thieu__row-mobile {
+    display: none;
+}
+
+.fahasa-gioi-thieu__row-tablet {
+    display: none;
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .footer {
+        margin-top: 20px;
+    }
+
+    .footer__intro {
+        display: block;
+        flex-basis: 100%;
+    }
+
+    .footer__support ,
+    .footer__my-account ,
+    .footer__service {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .footer__doi-tac {
+        width: 100%;
+    }
+
+    .san-pham-lien-quan__row-tablet {
+        display: flex;
+    }
+
+    .san-pham-lien-quan__row__item {
+        width: 25%;
+        padding: 8px;
+    }
+
+    .san-pham-lien-quan__row__item-infor__img {
+        width: 100%;
+    }
+
+    .fahasa-gioi-thieu__row-tablet {
+        display: flex;
+    }
+
+    .fahasa-gioi-thieu__row-mobile {
+        display: none;
+    }
+
+    .fahasa-gioi-thieu__row__item {
+        width: 25%;
+        margin: 9px;
+    }
+
+    .fahasa-gioi-thieu__row__item-infor__img {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .footer {
+        margin-top: 20px;
+    }
+
+    .footer__support ,
+    .footer__my-account ,
+    .footer__service {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .san-pham-lien-quan__row-mobile {
+        display: flex;
+    }
+
+    .san-pham-lien-quan__row-tablet {
+        display: none;
+    }
+
+    .san-pham-lien-quan__row__item {
+        width: 33.3333%;
+        padding: 8px;
+    }
+
+    .san-pham-lien-quan__row__item-infor__img {
+        width: 100%;
+    }
+
+    .fahasa-gioi-thieu__row-tablet {
+        display: none;
+    }
+
+    .fahasa-gioi-thieu__row-mobile {
+        display: flex;
+    }
+
+    .fahasa-gioi-thieu__row__item {
+        width: 33.3333%;
+        margin: 9px;
+    }
+
+    .fahasa-gioi-thieu__row__item-infor__img {
+        width: 100%;
+    }
+}
+
+/* Mobile and Tablet */
+@media only screen and (max-width: 900px) {
+    body {
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .header-mobile-tablet {
+        display: block;
+        width: 100%;
+        padding: 6px;
+    }
+
+    .body-container__nav {
+        flex-wrap: wrap;
+    }
+
+    .header-mobile-tablet__logo-img {
+        width: 140px;
+    }
+
+    .header-mobile-tablet__logo {
+        text-align: center;
+    }
+
+    .header-mobile-tablet {
+        background-color: #C92127;
+    }
+
+    .header-mobile-tablet__body {
+        display: flex;
+        align-items: center;
+        padding: 10px 0 15px 10px;
+        /* position: fixed;
+        top: 100%;
+        left: 0;
+        right: 0; */
+        background-color: #C92127;
+    }
+
+    .header-mobile-tablet__menu {
+        margin-right: 14px;
+    }
+
+    .header-mobile-tablet__menu-icon {
+        font-size: 26px;
+        color: #fff;
+    }
+
+    .header-mobile-tablet__search {
+        flex-basis: 100%;
+    }
+
+    .header-mobile-tablet__input-search {
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        padding: 8px;
+        width: 100%;
+    }
+
+    .header-mobile-tablet__input-search::placeholder {
+        opacity: 0.5;
+    }
+
+    .header-mobile-tablet__cart {
+        margin: 0 10px;
+    }
+
+    .header-mobile-tablet__icon-cart {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .header-mobile-tablet__user {
+        margin-left: 4px;
+    }
+
+    .header-mobile-tablet__user-icon {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .footer__contact__content {
+        flex-direction: column;
+    }
+
+    .footer__contact__content__address ,
+    .footer__contact__content__email ,
+    .footer__contact__content__phone-number {
+        padding: 8px 0;
+    }
+
+    .body-container {
+        width: 100%;
+    }
+
+    .breadcrumb {
+        display: none;
+    }
+
+    .product__image-view-more {
+        display: none;
+    }
+
+    .product-order {
+        display: none;
+    }
+
+    .product {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .product__image {
+        width: 100%;
+        margin: 9px;
+    }
+
+    .product__image-view-primary-item-img {
+        display: flex;
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+    }
+
+    .product__content__heading p {
+        display: block;
+        font-size: 16px;
+    }
+
+    .product__content {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .product__content-price-current span {
+        font-size: 25px;
+    }
+
+    .product__content-number-order {
+        display: none;
+    }
+
+    .product__content-chinh-sach-doi-tra-title {
+        display: none;
+    }
+
+    .product__content-chinh-sach-doi-tra {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .san-pham-lien-quan__row {
+        display: none;
+    }
+
+    .fahasa-gioi-thieu__row {
+        display: none;
+    }
+
+    .fahasa-gioi-thieu__row__item-infor {
+        width: 100%;
+    }
+
+    .product-infor__content-title {
+        width: 260px;
+    }
+
+    .product-rate__content-number {
+        width: 20%;
+    }
+
+    .product-rate__content {
+        flex-wrap: wrap;
+    }
+
+    .product-rate__content-number {
+        width: 130px;
+    }
+
+    .product-rate__content-star-rate {
+        width: calc(100% - 130px);
+    }
+
+    .product-rate__content-number-heading {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .product-rate__content-number {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        -webkit-box-pack: center;
+    }
+
+    .register-notify {
+        display: none;
+    }
+
+    .chinh-sach__khach-si ,
+    .chinh-sach__thoi-gian-giao-hang ,
+    .chinh-sach__doi-tra {
+        flex-direction: column;
+    }
+
+    .chinh-sach__khach-si span ,
+    .chinh-sach__thoi-gian-giao-hang span ,
+    .chinh-sach__doi-tra span {
+        margin-top: 9px;
+        font-size: 13px;
+        color: #555
+    }
+
+    .product-rate__content-star-rate_status {
+        width: 70%;
+    }
+
+    .product-rate__content-number {
+        padding: 0;
+    }
+
+    .product-rate__content-star-rate {
+        padding-left: 20px;
+    }
+
+    .product-rate__content-more {
+        margin-top: 10px;
+    }
 }

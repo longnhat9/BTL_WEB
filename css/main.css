@@ -508,6 +508,21 @@ html {
     background-color: #f0f0f0;
 }
 
+.body__overlay {
+    position: fixed;
+    top: 132px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 1;
+}
+
+.header__container__menu:hover {
+    z-index: 2;
+}
+
 .body-container {
     width: 1230px;
     margin: auto;
@@ -1841,6 +1856,121 @@ html {
     display: none;
 }
 
+.header__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    display: none;
+}
+
+.header__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 12;
+    background-color: #fff;
+    transform: translateX(-100%);
+    transition: transform linear 0.3s;
+}
+
+.header-menu__header {
+    display: flex;
+    background-color: #C62128;
+    justify-content: space-between;
+}
+
+.header-menu__btn-back {
+    cursor: pointer;
+}
+
+.header-menu__btn-back-icon {
+    color: #fff;
+    padding: 16px;
+    font-size: 20px;
+}
+
+.header-menu__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    flex: 1;
+}
+
+.header-menu__body {
+    background-color: #f2f4f5;
+    display: flex;
+}
+
+.header-menu__list {
+    width: 90px;
+}
+
+.header-menu__item {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.header-menu__item + .header-menu__item {
+    margin-top: 4px;
+}
+
+.header-menu__img{
+    width: 24px;
+}
+
+.header-menu__name {
+    font-size: 13px;
+}
+
+.header-menu__item--active {
+    border-left: 4px solid #C92127;
+}
+
+.header-menu__content {
+    width: calc(100% - 90px);
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.header-menu__content-list {
+    width: 100%;
+}
+
+.header-menu__content-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 14px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-menu__content-item + .header-menu__content-item {
+    margin-top: 4px;
+}
+
+.header-menu__content-heading {
+    font-size: 14px;
+    color: #333;
+}
+
+.header-menu__content-icon {
+    font-size: 13px;
+    color: #333;
+}
+
 /* Mobile and Tablet */
 @media only screen and (max-width: 900px) {
     body {
@@ -2048,6 +2178,10 @@ html {
     }
 
     .trend-buy-products__row {
+        display: none;
+    }
+
+    .header__overlay {
         display: none;
     }
 }

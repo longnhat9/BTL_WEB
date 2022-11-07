@@ -3,13 +3,11 @@ var menu = document.querySelector('.header__menu');
 var close = document.querySelector('.header-menu__btn-back-icon');
 
 over_lay = document.querySelector('.header__overlay');
-console.log(menu_icon);
 
 menu_icon.onclick = function() {
     menu.style.transform = 'translateX(0%)';
     over_lay.style.display = 'block';
 }
-
 
 close.onclick = function() {
     menu.style.transform = 'translateX(-100%)';

@@ -557,6 +557,8 @@ html {
     padding: 5px 50px;
     border-bottom: 2px solid #C92127;
     font-size: 14px;
+    transition: all 0.3s ease;
+    transform-origin: top left;
 }
 
 .form-login__heading-register {
@@ -566,9 +568,10 @@ html {
 }
 
 .form-login__heading-register span {
-    padding: 10px 50px;
+    padding: 5px 50px;
     color: #646464;
     font-size: 14px;
+    transition: all 0.3s ease;
 }
 
 .form-login__login-form {
